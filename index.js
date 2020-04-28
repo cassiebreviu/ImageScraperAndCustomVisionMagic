@@ -4,7 +4,7 @@ var https = require("https");
 var fs = require("fs");
 var download = require("image-downloader");
 // Replace the subscriptionKey string value with your valid subscription key.
-const subscriptionKey = "9e81f009874b47b5bd0821d9022f2818";
+const subscriptionKey = "add your key here";
 // Verify the endpoint URI.  At this writing, only one endpoint is used for Bing
 // search APIs.  In the future, regional endpoints may be available.  If you
 // encounter unexpected authorization errors, double-check this host against

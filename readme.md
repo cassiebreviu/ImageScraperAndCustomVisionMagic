@@ -1,8 +1,4 @@
-The first thing we need to create our model is data! We are going to use a the Bing Search service to scrape an image dataset to train our model. Then we are going to use a NodeJS app to create folders and save the scarped images to labeled folders.
-
-We are going to look at the top 10 most endangered bird species for this project. However if you want to build a model to identify species in your backyard I recommend checking out the [NA Birds Dataset From Cornell](https://dl.allaboutbirds.org/nabirds)
-
-## TODO ADD SANDBOX WIDGET HERE!
+Need some data? Hate doing things manually?! This is for you! We are going to use a the Bing Search service to scrape an image dataset to train our model. Here are the steps to create this project manually or just clone the repo.
 
 ## Create Bing Search Api Azure Resource
 
