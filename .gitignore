@@ -9,6 +9,9 @@ lerna-debug.log*
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
+#img
+*.jpg
+*.zip
 # Runtime data
 pids
 *.pid
@@ -113,3 +116,5 @@ dist
 .yarn/unplugged
 .yarn/build-state.yml
 .pnp.*
+.ipynb_checkpoints/Untitled-checkpoint.ipynb
+.ipynb_checkpoints/CustomVisionSdkUpload-checkpoint.ipynb
