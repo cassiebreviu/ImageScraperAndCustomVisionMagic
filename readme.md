@@ -2,7 +2,7 @@ Need some data? Hate doing things manually?! This is for you! We are going to us
 
 ## Create Bing Search Api Azure Resource
 
-- Go to [portal.azure.com](https://portal.azure.com/)
+- Go to [portal.azure.com](https://portal.azure.com/?WT.mc_id=aiml-0000-cassieb)
 - Select "Create Resource"
 - Select "AI + Machine Learning"
 - Select "Bing Search"
@@ -18,7 +18,7 @@ Need some data? Hate doing things manually?! This is for you! We are going to us
 We are now going to create a simple Node App to scrape our images.
 
 - Install Node [here](https://nodejs.org/en/download/)
-- Install VS Code [here](https://code.visualstudio.com/download)
+- Install VS Code [here](https://code.visualstudio.com/download?WT.mc_id=aiml-0000-cassieb)
 - Open the terminal and run the following commands
 
 ```bash
