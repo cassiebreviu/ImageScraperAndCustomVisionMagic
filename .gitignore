@@ -118,3 +118,6 @@ dist
 .pnp.*
 .ipynb_checkpoints/Untitled-checkpoint.ipynb
 .ipynb_checkpoints/CustomVisionSdkUpload-checkpoint.ipynb
+
+
+images/

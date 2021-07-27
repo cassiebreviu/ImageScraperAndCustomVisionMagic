@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "azure-cognitiveservices-imagesearch": "^2.0.0",
-    "image-downloader": "^3.5.0",
+    "image-downloader": "^3.6.0",
     "ms-rest-azure": "^3.0.0"
   }
 }

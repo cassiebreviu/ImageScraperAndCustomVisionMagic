@@ -9,8 +9,8 @@ const subscriptionKey = "add your key here";
 // search APIs.  In the future, regional endpoints may be available.  If you
 // encounter unexpected authorization errors, double-check this host against
 // the endpoint for your Bing Search instance in your Azure dashboard.
-const host = "api.cognitive.microsoft.com";
-const path = "/bing/v7.0/images/search";
+const host = "api.bing.microsoft.com";
+const path = "/v7.0/images/search";
 //filter by license
 const filter = "&qft=+filterui:license-L2_L3_L4&FORM=IRFLTR";
 
@@ -37,7 +37,7 @@ var searchAndSaveImages = (search) => {
       console.log(`Image result count: ${imageResults.value.length}`);
       if (imageResults.value.length > 0) {
         //create directory folder for current search term
-        let rootDir = `./birds`;
+        let rootDir = `./images`;
         let searchDir = `${rootDir}/${search}`;
         let testDir = `${searchDir}/test`;
         let trainDir = `${searchDir}/train`;
@@ -84,7 +84,7 @@ var searchAndSaveImages = (search) => {
 
 let main = () => {
   //bird species search term list
-  var searchTermList = ["cardinal", "bluejay"];
+  var searchTermList = ["dog", "cat"];
   //loop search terms
   searchTermList.forEach((term) => {
     searchAndSaveImages(term);
